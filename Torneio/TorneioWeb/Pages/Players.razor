@@ -1,0 +1,64 @@
+﻿@page "/players"
+@using TorneioWeb.Models;
+@inject HttpClient Http
+<PageTitle>PLAYERS</PageTitle>
+
+<MudText Typo="Typo.h1" GutterBottom="true" Align="Align.Center">PLAYERS</MudText>
+<MudText Class="mb-8" Align="Align.Center">Torneio de grandes jogadores do futebol</MudText>
+@if (players is null)
+{
+    <MudProgressCircular Color="Color.Default" Indeterminate="true" />
+}
+else
+{
+    <MudContainer Class="d-flex flex-wrap gap-4">
+        @foreach (var player in players)
+        {
+            <MudCard Outlined="true" Style="width:30%;">
+                <MudCardMedia Image="@player.Picture" Style="height: 200px;" Class="text-center"/>
+                <MudCardContent>
+                    <MudList>
+                        <MudText Typo="Typo.h3" Align="Align.Center">@player.Name</MudText>
+                        <MudText Typo="Typo.subtitle2" Align="Align.Center">@player.Description</MudText>
+                        <MudListItem Icon="@Icons.Material.Outlined.LabelImportant">Idade: @player.Age</MudListItem>
+                        <MudListItem Icon="@Icons.Material.Outlined.LabelImportant">Gols/Jogo: @player.GoalsPerGame</MudListItem>
+                        <MudListItem Icon="@Icons.Material.Outlined.LabelImportant">Títulos: @player.Titles</MudListItem>
+                        <MudListItem Icon="@Icons.Material.Outlined.LabelImportant">Jogos: @player.Games</MudListItem>
+                        <MudListItem Icon="@Icons.Material.Outlined.LabelImportant">Gols: @player.Goals</MudListItem>
+                    </MudList>
+                </MudCardContent>
+                <MudCardActions>
+                    <MudButton Variant="Variant.Text" Color="Color.Primary">Share</MudButton>
+                    <MudButton Variant="Variant.Text" Color="Color.Primary">Learn More</MudButton>
+                </MudCardActions>
+            </MudCard>
+        }
+    </MudContainer>
+
+
+}
+
+@code {
+    private IEnumerable<Player> players = new List<Player>();
+    private bool _hidePosition;
+    private bool _loading;
+
+    public async Task<IEnumerable<Player>> GetPlayers()
+    {
+        var teste = await Http.GetFromJsonAsync<List<Player>>("sample-data/players.json");
+        return teste;
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        players = await GetPlayers();
+
+        foreach (var player in players)
+        {
+            double goals = player.Goals;
+            double games = player.Games;
+            double goalsPerGame = goals / games;
+            player.GoalsPerGame = (Math.Round(goalsPerGame, 2));
+        }
+    }
+}
