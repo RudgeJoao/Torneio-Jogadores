@@ -45,7 +45,7 @@ else
 
     public async Task<IEnumerable<Player>> GetPlayers()
     {
-        var teste = await Http.GetFromJsonAsync<List<Player>>("sample-data/players.json");
+        var teste = await Http.GetFromJsonAsync<List<Player>>("https://localhost:7024/api/player");
         return teste;
     }
 
