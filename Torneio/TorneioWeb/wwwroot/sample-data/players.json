@@ -1,0 +1,162 @@
+﻿[
+  {
+    "Id": 1,
+    "Name": "Neymar",
+    "Age": 31,
+    "Titles": 8,
+    "Games": 594,
+    "Goals": 362,
+    "Picture": "https://media.gettyimages.com/id/1383855133/pt/foto/madrid-spain-neymar-jr-of-paris-saint-germain-warms-up-before-during-the-uefa-champions-league.jpg?s=612x612&w=0&k=20&c=M7oEIfxve-vl-6OoHPbgWtqyI_1Z1QrhlA6AHfY8EGM=",
+    "Description": "Maior artilheiro da história da seleção brasileira, maior ídolo do Santos pós Pelé e protagonista do primeiro ouro olímpico do Brasil no futebol"
+  },
+  {
+    "Id": 2,
+    "Name": "Cristiano Ronaldo",
+    "Age": 38,
+    "Titles": 34,
+    "Games": 992,
+    "Goals": 739,
+    "Picture": "https://img.btolat.com/news/large/188745.jpg",
+    "Description": "Maior jogador da história de Portugal e Maior jogador da história do maior clube do mundo (Real Madrid)"
+  },
+  {
+    "Id": 3,
+    "Name": "Messi",
+    "Age": 36,
+    "Titles": 44,
+    "Games": 867,
+    "Goals": 715,
+    "Picture": "https://i.pinimg.com/564x/39/a1/28/39a128cb75c05e0a404eb2d1fd4fe4fa.jpg",
+    "Description": "O melhor do século. Maior vencedor da história do Futebol, colecionando mais de 44 títulos, Messi é o maior driblador da história e para muitos o melhor a jogar futebol."
+  },
+  {
+    "Id": 4,
+    "Name": "Pelé",
+    "Age": 82,
+    "Titles": 37,
+    "Games": 1282,
+    "Goals": 1364,
+    "Picture": "https://media.gettyimages.com/id/900481092/pt/foto/brazilian-striker-pel%C3%A9-wearing-his-santos-jersey-smiles-before-playing-a-friendly-soccer-match.jpg?s=612x612&w=0&k=20&c=9-tjCymO101cAl1C5W2kqbXc6jiBn4p7BhY0XqmflgA=",
+    "Description": "O Rei. Maior goleador da história, único jogador a ganhar 3 copas do mundo, o homem que deu sentido a camisa 10 e eleito jogador do século XX"
+  },
+  {
+    "Id": 5,
+    "Name": "Haaland",
+    "Age": 23,
+    "Titles": 8,
+    "Games": 258,
+    "Goals": 206,
+    "Picture": "https://media.gettyimages.com/id/1419677238/pt/foto/manchester-england-erling-haaland-of-manchester-city-celebrates-after-scoring-their-teams.jpg?s=612x612&w=0&k=20&c=9zPXsG7aBrQ8pdz67X1X_XcbDDjZi2CCkfqlDnpmAKE=",
+    "Description": "Maior artilheiro de uma edição da Premier League, Haaland marcou 35 gols em 2022/23"
+  },
+  {
+    "Id": 6,
+    "Name": "Kylian Mbappé",
+    "Age": 25,
+    "Titles": 13,
+    "Games": 347,
+    "Goals": 265,
+    "Picture": "https://media.gettyimages.com/id/999544758/pt/foto/moscow-russia-kylian-mbappe-of-france-celebrates-with-the-world-cup-trophy-following-the-2018.jpg?s=612x612&w=0&k=20&c=uOQUNpOzHDGR9TAEwBCV8Ot1X2ew3Y6kH2O5dF7x9aw=",
+    "Description": "Maior artilheiro do Paris Saint-Germain, foi protagonista da copa de 2018 com 19 anos e foi o atleta mais jovem a fazer um gol na Champions League"
+  },
+  {
+    "Id": 7,
+    "Name": "Harry Kane",
+    "Age": 30,
+    "Titles": 0,
+    "Games": 536,
+    "Goals": 332,
+    "Picture": "https://media.gettyimages.com/id/1175345793/pt/foto/prague-czech-republic-harry-kane-of-england-celebrates-scoring-the-first-goal-of-his-team-via.jpg?s=612x612&w=0&k=20&c=MVae5XovHtl5whvkXM4XJpJA1T8AbArVPoqxf82S4fM=",
+    "Description": "O terceiro maior artilheiro da história da Premier League e maior artilheiro do Tottenham"
+  },
+  {
+    "Id": 8,
+    "Name": "Ronaldo, o Fenômeno",
+    "Age": 47,
+    "Titles": 16,
+    "Games": 615,
+    "Goals": 414,
+    "Picture": "https://media.gettyimages.com/id/879144876/pt/foto/brazil-v-belgium-fifa-world-cup-ronaldo-celebrates-after-scoring-a-goal-for-brazil.jpg?s=612x612&w=0&k=20&c=YucvaIB7kqN8ocmLyWKuuhf8uIW3B8rhsnzkfTDjxfc=",
+    "Description": "Muitos são Craques, só o Ronaldo é FENÔMENO. Mesmo quando seu corpo falhou, Ronaldo deu a volta por cima e foi bicampeão do mundo pelo Brasil"
+  },
+  {
+    "Id": 9,
+    "Name": "Zinédine Zidane",
+    "Age": 51,
+    "Titles": 15,
+    "Games": 797,
+    "Goals": 156,
+    "Picture": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidIKKA13fewCPGf2DwAsD01Dovx-y6opoUn4rGe_sBRQtIgETOkmKMudtt-AeGjj0SxjCqaaJaQ7mQ8hAxuEjK9iEXQ6e_YqNAuLEmceHTo0rGZijqyjD_LACtfOYi0coQlBGdYUw8YPcgRtBAWROxZlF4qEhxlfddz1RXoZj09v-KwYkVHao5M9bh/w1200-h630-p-k-no-nu/Zinedine%20Zidane%20Fran%C3%A7a.jpg",
+    "Description": "O maior craque da história do futebol francês, melhor do Mundo três vezes. Conhecido por sua elegância, levou à França a primeira copa do mundo."
+  },
+  {
+    "Id": 10,
+    "Name": "Rogério Ceni",
+    "Age": 50,
+    "Titles": 15,
+    "Games": 1225,
+    "Goals": 129,
+    "Picture": "https://media.gettyimages.com/id/56450250/pt/foto/south-american-champion-brazils-sao-paulo-fc-captain-and-goalkeeper-rogerio-ceni-waves-his-club.jpg?s=612x612&w=0&k=20&c=VYqjpxOLOyW5k9tnQw6ghoQf7cZFoHBeYJa6v2rPi8E=",
+    "Description": "O Mito! Multicampeão pelo São Paulo, Rogério é um dos melhores goleiros e cobrador de falta da história, a lenda do goleiro artilheiro."
+  },
+  {
+    "Id": 11,
+    "Name": "Luis Suárez",
+    "Age": 36,
+    "Titles": 22,
+    "Games": 768,
+    "Goals": 471,
+    "Picture": "https://media.gettyimages.com/id/1246313256/pt/foto/gremios-uruguayan-forward-luis-suarez-celebrates-after-scoring-against-sao-luiz-during-the.jpg?s=612x612&w=0&k=20&c=F3r_2OUkweHfmW6S0-bu8ehFPeA_8NmjXNXOOppuxa8=",
+    "Description": "Maior artilheiro da história do Uruguai, um dos maiores atacantes da modernidade"
+  },
+  {
+    "Id": 12,
+    "Name": "Robert Lewandowski",
+    "Age": 36,
+    "Titles": 22,
+    "Games": 768,
+    "Goals": 471,
+    "Picture": "https://media.gettyimages.com/id/1359579536/pt/foto/munich-germany-robert-lewandowski-of-muenchen-scores-his-teams-fourth-goal-during-the.jpg?s=612x612&w=0&k=20&c=UTgp2mBwAoK-St-nkGwgphdTm89AzHlXfJG-E6tIuqI=",
+    "Description": "Maior artilheiro da história da Polônia, melhor do mundo de 2020"
+  },
+  {
+    "Id": 13,
+    "Name": "Zico",
+    "Age": 70,
+    "Titles": 7,
+    "Games": 775,
+    "Goals": 530,
+    "Picture": "https://s2-ge.glbimg.com/BauhbsVOVg6K9VCQSGSnXYNph-M=/0x0:622x350/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2019/m/N/v6oy8xShmXpR7KyZG8VA/zico-fla.jpg",
+    "Description": "É o maior ídolo da história do Flamengo, campeão da libertadores e do mundial e líder da famosa seleção brasileira de 1982"
+  },
+  {
+    "Id": 14,
+    "Name": "Romário",
+    "Age": 57,
+    "Titles": 17,
+    "Games": 961,
+    "Goals": 744,
+    "Picture": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/12/20/07/romario.jpg",
+    "Description": "O Gênio da área, o 'baixinho' foi a estrela do tetra e matador dentro da área"
+  },
+  {
+    "Id": 15,
+    "Name": "Diego Maradona",
+    "Age": 60,
+    "Titles": 12,
+    "Games": 680,
+    "Goals": 346,
+    "Picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Maradona-Mundial_86_con_la_copa.JPG/240px-Maradona-Mundial_86_con_la_copa.JPG",
+    "Description": "'Dios'. Messi pode até ser melhor, mas nunca será tão grande e lendário quanto Diego Armando Maradona. Diego vingou a Argentina contra a Inglaterra após a guerra das Malvinas, marcando os dois gols mais emblamáticos do século XX"
+  },
+  {
+    "Id": 16,
+    "Name": "Johan Cruijff",
+    "Age": 68,
+    "Titles": 24,
+    "Games": 710,
+    "Goals": 403,
+    "Picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Johan_Cruyff_1974c.jpg/1200px-Johan_Cruyff_1974c.jpg",
+    "Description": "Melhor jogador europeu do século XX, 3 vezes melhor do mundo. Venceu as 3 únicas champions league do Ajax da Holanda."
+  }
+]
