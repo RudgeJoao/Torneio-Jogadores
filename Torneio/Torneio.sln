@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorneioWeb", "TorneioWeb\TorneioWeb.csproj", "{194EABC7-9068-484E-AE84-4E7DBCE71F44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorneioApi", "TorneioApi\TorneioApi.csproj", "{5FA48DF3-3C99-4A5A-9880-3A8344825166}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{194EABC7-9068-484E-AE84-4E7DBCE71F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{194EABC7-9068-484E-AE84-4E7DBCE71F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{194EABC7-9068-484E-AE84-4E7DBCE71F44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FA48DF3-3C99-4A5A-9880-3A8344825166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FA48DF3-3C99-4A5A-9880-3A8344825166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FA48DF3-3C99-4A5A-9880-3A8344825166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FA48DF3-3C99-4A5A-9880-3A8344825166}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
